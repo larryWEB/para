@@ -1,0 +1,419 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;500;600&family=Satisfy&display=swap');
+
+*{
+  margin:0px;
+  padding:0px;
+  scroll-behavior: smooth;
+
+ }
+
+ 
+
+body, html {
+	height: 100%;
+	margin: 0;
+	font: 400 15px/1.8 "Lato", sans-serif;
+	color: #777;
+	background-color: black;
+	}
+  
+
+ /*  Whatsapp  STYLE RULES */
+
+.chat{
+	position:fixed;
+	  bottom:0px;
+	  display:flex;
+	  justify-content:center;
+	  align-items:right;
+	 background-color:#e0dede;
+	  width:100%;
+	 height:55px;
+	z-index:999;
+	gap:30px;
+   }
+   
+   
+   
+   .whatsapp-img{
+	border-radius:100px;
+	 height:40px;
+	  width:40px;
+	 margin-top:10px;
+	 animation: scaleUp 3s ease-in-out infinite;
+   }
+   
+   
+   @keyframes scaleUp {
+   
+	 0%,
+	 100% { transform: translateY(0) scale(1); }
+	 
+	 50% { transform: translateY(-5px) scale(1.05);}
+	 
+	 }
+   
+   
+   .chat:hover{
+	 cursor:pointer;
+   }
+
+
+
+ 
+
+
+.scrollTop{
+  position:fixed;
+  bottom:30px;
+  right:30px;
+  background-color: black;
+  color:white;
+  cursor: pointer;
+  transition: all 0.5s ease 0s;
+  z-index: 9999;
+  padding: 10px;
+  border-radius:30px;
+}
+
+ /* END OF  SCROLL TO TOP STYLE RULES */
+  
+
+
+
+  /*  HEADER STYLE RULES */
+
+header{
+background-color:black;
+ height:100px;
+ display:flex;
+  width: 100%;
+  top:0px;
+  position:relative;
+  z-index: 9999;
+
+}
+
+
+.logo-card{
+  position:absolute;
+  left:20px;
+}
+
+
+ /*  MENU BTN / NAVIGATION  STYLE RULES */
+
+.menu-btns{
+ position:absolute;
+right:30px;
+  z-index:1;
+ top:40px;
+	background-color:#fcb040;
+	width:30px;
+	height:30px;
+	color:white;
+	text-align:center;
+	display:flex;
+	justify-content:center;
+}
+
+.menu-btns i{
+	font-size:27px;
+   }
+
+
+#menu-bar{
+display:flex;
+flex-direction:column; 
+position:absolute;
+background-color:#fcb040;
+height:170px;
+transition: all 0.4s ease;
+top:100px;
+width:100%;
+gap:20px;
+ right:0px;
+ z-index:-4;
+  overflow:hidden;
+ text-align:left;
+}
+
+.nav-link a{
+ text-decoration:none;
+color:white;
+ font-weight:500;
+ font-size:20px;
+}
+
+
+
+.nav-link{
+ display:flex;
+flex-direction:column;
+ position:relative;
+ top:10px;
+ margin:10px;
+	font-weight:bold;
+	left:20px;
+}
+
+
+
+.slide{
+left:-100%;
+}
+
+
+.hide{
+visibility:hidden;
+ z-index:1;
+}
+
+.open{
+position:absolute;
+}
+
+
+/* HOME 
+CONTENTS
+STYLE RULES */
+
+
+ 
+ /*  PARALLAX EFFECT BACKGROUND IMAGES  STYLE RULES */
+
+ .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5 {
+	position: relative;
+	opacity: 0.65;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+  
+  }
+  .bgimg-1 {
+	background-image: url("assets/images/wedding\ \(3\).JPG");
+	min-height: 80%;
+  position:relative;
+  ;
+  }
+  
+  .bgimg-2 {
+	background-image: url("assets/images/Corporate-Congress-Event-Photographer-London-00033-1.jpg");
+  
+	height: 300px;
+  }
+  
+  .bgimg-3 {
+	background-image: url("assets/images/wedding\ \(3\).JPG");
+	height: 300px;
+  }
+  
+  
+  .bgimg-4 {
+	background-image: url("assets/images/headway-F2KRf_QfCqw-unsplash.jpg");
+	height: 300px;
+  }
+  
+  
+  .bgimg-5 {
+	background-image: url("assets/images/Corporate-Congress-Event-Photographer-London-00033-1.jpg");
+  
+	height: 300px;
+  }
+  
+  
+  
+   /*  HOME ABOUT SECTION  STYLE RULES */
+  
+  
+  .home-abt{
+	color: #777;
+	background-color:white;
+	text-align:center;
+	padding:30px 20px 30px 20px;
+	text-align: left;
+  }
+  
+  .home-abt h3 {
+	letter-spacing: 2px;
+	text-transform: uppercase;
+	font: 30px "Lato", sans-serif;
+	color: #111;
+	padding:0 0 20px 0;
+  }
+  
+  
+  
+   /*  PAGE BUTTONS   STYLE RULES */
+  .mybtn-card{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top:20px;
+  }
+  
+  
+  .mybtn-card button{
+  line-height: 3.5;
+  width:270px;
+  background-color: black;
+  border:none;
+  border-radius:5px;
+  color:white;
+  }
+  
+  
+   /*  SERVICES  STYLE RULES */
+  
+  .mo-services{
+	color:#777;
+	background-color:white;
+	text-align:center;
+	padding:30px 20px 30px 20px;
+	text-align: left;
+  }
+  
+  
+  
+  .mo-services h1{
+	color: #111;;
+  font-weight:100;
+  font-size: 35px;
+  }
+  
+  .mo-services h3{
+	color: #111;;
+	font-weight:100;
+  }
+  
+  
+  
+  .service-card{
+  padding-bottom:35px;
+  }
+  
+  
+  
+  .service-card img{
+  padding: 10px 0 20px 0;
+  }
+  
+  .serv-btn-card{
+  display: flex;
+  flex-direction: column;
+  }
+  
+  
+  .serv-btn-card button{
+	margin-bottom:25px;
+	width:200px;
+  }
+  
+  
+  .service-image-card{
+	display:flex;
+	flex-wrap: wrap;
+	gap:10px;
+  }
+  
+
+
+
+/* FAQ STYLE RULES */
+
+#faq{
+	padding-bottom:30px;
+	 padding-top:30px;
+	 display:flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items:center;
+	background-color: white;
+   }
+
+   #faq h1{
+	padding-bottom:20px;
+	color: black
+   }
+
+
+
+   .faq-mother{
+	
+	 color:#777;
+	 border-radius:5px;
+	margin:0px;
+   padding-bottom:15px;
+	padding-top:15px;
+	width:90%;
+	border:2px solid #777;
+
+   }
+   
+   .faq-mother hr{
+	background-color:black;
+	width:100%;
+	border:none;
+	height:1px;
+   }
+   
+   .faq-header{
+	 padding:10px;
+	 font-size:14px;
+	 cursor:pointer;
+	 position:relative;
+  font-weight:bold;
+
+   }
+   
+   
+   .faq-header::after{
+	 content:"\002B";
+	 font-size:20px;
+	position:absolute;
+	 right:1rem;
+	top:5px;
+	color:black;
+   }
+   
+   .faq-header.active::after{
+	content:"\2212";
+   }
+   
+   .faq-answer-content{
+	padding:15px;
+	  font-size:14px;
+	border-top:1px solid black;
+	border-image:linear-gradient(to right,yellow,white,yellow)1; 
+   }
+   
+   .faq-answer{
+	max-height:0;
+	overflow:hidden;
+	transition: max-height 0.2s ease-out;
+   }
+   
+   .faq-header.active + .faq-answer{
+	max-height:1000px;
+   }
+   
+  
+
+   /* END OF FAQ STYLE RULES */
+   
+ 
+
+   footer{
+	display:flex;
+	flex-direction: column;
+	justify-content:center;
+		align-items:center;
+		background-color: black;
+		color:white;
+		padding:30px;
+   }
+
+
+	   
