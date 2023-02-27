@@ -15,7 +15,7 @@ body, html {
 	margin: 0;
 	font: 400 15px/1.8 "Lato", sans-serif;
 	color: #777;
-	background-color: black;
+	background-color: blue;
 	}
   
 
@@ -179,55 +179,6 @@ position:absolute;
 CONTENTS
 STYLE RULES */
 
-
- 
- /*  PARALLAX EFFECT BACKGROUND IMAGES  STYLE RULES */
-
- .bgimg-1, .bgimg-2, .bgimg-3, .bgimg-4, .bgimg-5 {
-	position: relative;
-	opacity: 0.65;
-	background-attachment: fixed;
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
-  
-  }
-  .bgimg-1 {
-	background-image: url("assets/images/wedding\ \(3\).JPG");
-	min-height: 80%;
-  position:relative;
-  ;
-  }
-  
-  .bgimg-2 {
-	background-image: url("assets/images/Corporate-Congress-Event-Photographer-London-00033-1.jpg");
-  
-	height: 300px;
-  }
-  
-  .bgimg-3 {
-	background-image: url("assets/images/wedding\ \(3\).JPG");
-	height: 300px;
-  }
-  
-  
-  .bgimg-4 {
-	background-image: url("assets/images/headway-F2KRf_QfCqw-unsplash.jpg");
-	height: 300px;
-  }
-  
-  
-  .bgimg-5 {
-	background-image: url("assets/images/Corporate-Congress-Event-Photographer-London-00033-1.jpg");
-  
-	height: 300px;
-  }
-  
-  
-  
-   /*  HOME ABOUT SECTION  STYLE RULES */
-  
-  
   .home-abt{
 	color: #777;
 	background-color:white;
